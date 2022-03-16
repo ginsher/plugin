@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ol, ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+fieldset {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input, label {
+  vertical-align: middle;
+}
+
+.h {
+  position: absolute;
+  top: -99999px;
+  opacity: 0;
+}
+
+.join {
+  width: 100%;
+  padding: 9.375rem 0;
+}
+.join .inner {
+  width: 73.75rem;
+  margin: 0 auto;
+}
+.join h1 {
+  font: normal 3.75rem/1 "Raleway";
+  color: #555;
+  margin-bottom: 3.125rem;
+}
+.join table {
+  width: 100%;
+  border: none;
+  border-top: 0.125rem solid #333;
+  border-bottom: 0.125rem solid #333;
+}
+.join th, .join td {
+  border: none;
+  border-bottom: 0.063rem solid #ddd;
+  padding: 1rem 1.563rem;
+}
+.join th {
+  width: 20%;
+}
+.join th input[type=reset], .join th input[type=submit] {
+  width: 30%;
+  height: 2.5rem;
+  border: 0.063rem solid #333;
+  margin: 0.625rem;
+  font: bold 0.875rem/2.5rem "arial";
+  color: #555;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.join th input[type=reset]:hover, .join th input[type=submit]:hover {
+  background: #333;
+  color: #fff;
+}
+.join td {
+  border-left: 0.063rem solid #ccc;
+}
+.join td input[type=text], .join td input[type=password], .join td select {
+  width: 60%;
+  background: rgba(0, 0, 0, 0.03);
+  border: 0.063rem solid #aaa;
+  padding: 0.625rem;
+}
+.join td input[type=checkbox], .join td input[type=radio] {
+  margin-right: 1.875rem;
+}
+.join td textarea {
+  width: 60%;
+  height: 9.375rem;
+  background: rgba(0, 0, 0, 0.03);
+  border: 0.063rem solid #aaa;
+  padding: 0.625rem;
+  resize: none;
+}
+.join td p {
+  font: 0.688rem/1 "arial";
+  color: tomato;
+  margin-top: 0.313rem;
+  margin-bottom: 0.313rem;
+}
+
+/*# sourceMappingURL=style.css.map */
